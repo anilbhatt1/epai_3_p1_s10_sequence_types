@@ -92,7 +92,7 @@
     - __getitem__ fetches area-perimeter ratio then by calling _calc_ratio.
 
 - Draft Jupyter version where assignment was initially tried out can be found below:
-https://github.com/anilbhatt1/epai_3_p1_s10_sequence_types/blob/master/Sequence_Types_Assignment_Draft
+https://github.com/anilbhatt1/epai_3_p1_s10_sequence_types/blob/master/Sequence_Types_Assignment_Draft.ipynb
 
 ## Testing
 - All the above functions are tested using pytest.
