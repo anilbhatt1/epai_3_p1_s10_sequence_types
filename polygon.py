@@ -32,7 +32,7 @@ class polygon:
 
     def __eq__(self, oth_poly):
         '''
-        Checks whether a given polygon object is equal or not based on no:of edges and circumradius
+        Checks whether a given polygon object is equal or not based on no:of edges and circumradius(R)
         '''
         return self.n == oth_poly.n and self.R == oth_poly.R
 
