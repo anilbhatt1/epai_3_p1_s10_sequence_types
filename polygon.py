@@ -30,13 +30,13 @@ class polygon:
         s2 = f'{self.n} sides, circumradius = {self.R}'
         return s1+s2
 
-    def __eq__(self, oth_poly: 'polygon object'):
+    def __eq__(self, oth_poly):
         '''
         Checks whether a given polygon object is equal or not based on no:of edges and circumradius
         '''
         return self.n == oth_poly.n and self.R == oth_poly.R
 
-    def __gt__(self, oth_poly: 'polygon object'):
+    def __gt__(self, oth_poly):
         '''
         Checks whether a given polygon object is greater than or not based on no:of edges
         '''
